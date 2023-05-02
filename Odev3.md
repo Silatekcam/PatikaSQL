@@ -5,25 +5,25 @@
 
 1 Cevap
 
-```
+```sql
 select * from country where country LIKE 'A%a'
 ```
 
 2 Cevap
 
-```
+```sql
 select * from country where country like ('_____n');
 ```
 
 3 Cevap 
 
-```
+```sql
 select title from film where title ilike 't%t%t%t%';
 ```
 
 4 Cevap
 
-```
+```sql
 select * from film where title like 'C%' and length > 90 and rental_rate = 2.99;
 ```
 
