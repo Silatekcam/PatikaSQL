@@ -8,31 +8,31 @@
 
 1 Cevap
 
-```
+```sql
 select distinct replacement_cost from film;
 ```
 
 2 Cevap
 
-```
+```sql
 select count (replacement_cost) from film;
 ```
 
 3 Cevap
 
-```
+```sql
 select count(*) from film where title like ('T%') and rating = 'G';
 ```
 
 4 Cevap
 
-```
+```sql
 select count(city) from city where city like ('R%r');
 ```
 
 5 Cevap
 
-```
+```sql
 select count(country) from country where country like ('_____');
 ```
 
